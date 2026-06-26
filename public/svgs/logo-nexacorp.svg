@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none" aria-hidden="true">
+  <circle cx="24" cy="30" r="16" stroke="#6C63FF" stroke-width="2"/>
+  <text x="16" y="35" fill="#F0F0FF" font-family="system-ui" font-size="14" font-weight="700">N</text>
+  <text x="48" y="36" fill="#F0F0FF" font-family="system-ui" font-size="16" font-weight="600">NexaCorp</text>
+</svg>

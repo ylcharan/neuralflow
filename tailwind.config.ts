@@ -9,8 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: "var(--color-bg)",
+        "bg-deep": "var(--color-bg-deep)",
+        surface: "var(--color-surface)",
+        border: "var(--color-border)",
+        accent: "var(--color-accent)",
+        "accent-deep": "var(--color-accent-deep)",
+        "accent-2": "var(--color-accent-2)",
+        "accent-cyan": "var(--color-accent-cyan)",
+        primary: "var(--color-text-primary)",
+        muted: "var(--color-text-muted)",
+      },
+      fontFamily: {
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
+      },
+      maxWidth: {
+        container: "1200px",
       },
     },
   },
